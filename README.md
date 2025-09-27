@@ -28,6 +28,11 @@ To strengthen foundational HTML knowledge, enabling:
 ## 🛠️ Technologies
 - HTML5 
 ---
+## 🔗 Useful Links
+- [My Linkdin Profile](https://www.linkedin.com/in/dev-tuhin/)
+- [Portfolio Website](https://devtuhin.com)
+
+---
 
 ## 👤 Author
 **MAHMAD TUHIN** – Aspiring Front-End Developer focused on **clean, semantic, and maintainable code**.
