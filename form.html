@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <!-- form tag -->
+    <form action="" target="_blank" method=""></form> <!-- to create a form -->
+    <!-- form elements: input, textarea, select, button, label, fieldset, legend -->
+    <label for="user_name" id="user_name"> <p>User Name:-</p> 
+        <input type="text" name="user_name" id="user_name" placeholder="Write Your Name"> <!-- to create a text input field -->
+    </label> <!-- to create a label,  placeholder is used to show a hint in the input field -->
+
+    <br>
+    <label for="number"> <p>Phone Number:- </p>
+        <input type="tel" name="" id=""> <!-- to create a tel input field -->
+    </label>
+    
+    <br>
+    <label for="email"><p>Email :- </p>
+        <input type="email" name="" id=""> <!-- to create a email input field -->
+    </label>
+    
+    <br>
+    <label for="password"><p>Password :- </p>
+        <input type="password" name="" id=""> <!-- to create a password input field -->
+    </label>
+    <br> <br>
+    <input type="file" name="" id=""> <!-- to create a hidden input field -->
+    <br> <br>
+
+    <!-- redio  -->
+    <label for="gender">
+        <p>Gender</p>
+        <input type="radio" name="gender" id="male" value="male"> Male <!-- to create a radio button --> <br>
+        <input type="radio" name="gender" id="female" value="female"> Female
+    </label>
+    
+    <br> <br>
+    <!-- chackbox -->
+    <label for="dep">Select Deperment</label>
+    <input type="checkbox" name="dep" id="CSE" value="CSE"> CSE <!-- to create a checkbox -->
+    <input type="checkbox" name="dep" id="EEE" value="EEE" > EEE
+    <input type="checkbox" name="dep" id="BBA" value="BBA"> BBA
+    <br><br>
+
+
+    <!-- selector -->
+    <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars">
+        <option value="select" disabled selected>-- SELECT ONE --</option>
+        <option value="BMW">BMW</option>
+        <option value="AUDI">AUDI</option>
+        <option value="FARARI">FARIRI</option>
+        <option value="TASLA">TASLA</option>
+    </select>
+    <br> <br>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message here"></textarea> <!-- to create a textarea -->
+    <br>
+    <button type="button">Click Me</button> <!-- to create a button -->
+    <br>
+    <input type="url" name="" id=""> <!-- to create a url input field -->
+    <br>
+    <input type="file" name="" id=""> <!-- to create a file input field -->
+</body>
+</html>
